@@ -1,0 +1,14 @@
+CREATE TABLE `wp_d1_cases` (
+	`id_card` INT(11) NOT NULL AUTO_INCREMENT,
+	`title_card` VARCHAR(250) NULL DEFAULT NULL,
+	`subtitle_card` VARCHAR(250) NULL DEFAULT NULL,
+	`text_footer_card` VARCHAR(250) NULL DEFAULT NULL,
+	`subtext_footer_card` VARCHAR(250) NULL DEFAULT NULL,
+	`card_link` VARCHAR(250) NULL DEFAULT NULL,
+	`img_bg_url` VARCHAR(250) NULL DEFAULT NULL,
+	PRIMARY KEY (`id_card`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=MyISAM
+AUTO_INCREMENT=6
+;
